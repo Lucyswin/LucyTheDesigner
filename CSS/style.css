@@ -1,0 +1,3128 @@
+@charset "utf-8";
+
+/*
+Theme Name: Airy Sky
+Author: Tenisha Riley
+Description: Dreamweaver/VSCode code converted to Wordpress
+Version: 0.0.1
+Tags: dreamweaver, light, bright, happy, cute, bootstrap, ux, vscode, wordpress, adobe
+*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+html {
+	margin-top: 0px !important;
+}
+
+body {
+	margin: 0px;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	margin: 0;
+	
+}
+
+.name {
+	display: inline-block;
+	vertical-align: center;
+	position: relative;
+	top: -12px;
+	left: 12%;
+}
+
+	
+.header-top {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	background-color: #b7d7d8;
+	
+}
+
+.socialicons {
+	height: 50px;
+	width: 50px;
+	margin: 0 10px;
+}
+
+.socialmedia li {
+	position: relative;
+	top: -20px;
+	float: right;
+	right: 12%;
+}
+
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+label {
+	margin: 0 40px 0 0;
+	font-size: 30px;
+	text-align: right;
+	display: none;
+}
+
+
+ul.nav {
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+}
+
+#toggle {
+	display: none;
+}
+	
+a {
+	display: block;
+	margin: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a.navigation {
+	margin: 0px 100px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 24px;
+}
+
+ul {
+	padding: 0px;
+}
+
+.navlogo {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 0px		
+}
+
+section.hero {
+	width: 100%;
+	margin: 0;
+	background-size: cover;
+}
+
+
+.builder {
+	width: 1920px;
+	height: 738px;
+	max-width: 100%;
+	
+}
+
+.bigcloud_1 {
+	fill: #204E5F;
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 65px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 47px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+
+}
+
+h1.afterdiagonal {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	font-size: 65px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 35px;
+}
+
+h1.projecttitle {
+	color: #204e5f;
+	
+}
+
+h1.projecttitleevana {
+	color: #204e5f;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT';
+	font-size: 30px;
+	color: #585858;
+	font-weight: 600;
+}
+.circleicons {
+	height: 250px;
+	width: 250px;
+	}
+
+
+.row {
+	display: flex;
+	width: 50%;
+	margin: 50px auto;
+}
+
+.rowportfoliopg {
+	display: flex;
+	width: 75%;
+	margin: 50px auto;
+	padding: 50px 0px 0px 0px;
+}
+
+.rowleftdiagonal {
+	display: flex;
+	width: 50%;
+	margin: 50px auto;
+	transform: skew(0deg, -3deg);
+}
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 75%;
+	margin: 50px auto;
+	transform: skew(0deg, -3deg)
+}
+
+.rowrightdiagonal {
+	display: flex;
+	width: 50%;
+	margin: 50px auto;
+	transform: skew(0deg, 3deg)
+}
+
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 75%;
+	margin: 50px auto;
+	transform: skew(0deg, 3deg)
+}
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 70px 0px 0px;
+}
+
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0px 0px 70px;
+}
+
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0px 0px 100px;
+}
+
+p.words {
+	font-family: "arial";
+	font-size: 37px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+}
+
+p.wordsevana {
+	font-family: "sans-serif";
+	font-size: 37px;
+	color: #204e5f;
+	text-align: left;
+	font-weight: normal;	
+}
+
+ul.wordsevana.li {
+	font-family: "sans-serif";
+	font-size: 37px;
+	color: #204e5f;
+	text-align: left;
+	font-weight: normal;	
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 27px;
+	font-family: "sans-serif";
+}
+
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.portfoliocloud {
+		display: block;
+		margin: 10px auto 80px;
+	
+	}	
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 20px 0px;
+	transform: skew(0deg, 3deg);
+}
+
+.rightdiagonal {
+	background: #FFE1D1;
+	transform: skew(0deg, -3deg);
+	padding: 0px 0px 0px 0px;
+}
+
+.portfoliorow {
+	display: flex;
+	width: 100%;
+	text-align: center;
+}
+
+.portfoliocolumn {
+	flex: auto;
+	text-align: center;
+	width: 33.33%;
+	display: inline-block;
+}
+
+.portfoliodesktop {
+	width: 450px;
+	height: 373px;
+}
+
+.portfoliomobile {
+	width: auto;
+	height: 500px;
+}
+
+.portfoliopgdsktp {
+	width: 400px;
+	height: 331px;
+}
+
+.threaded {
+	width: 400px;
+	height: 164px;
+}
+.instagram {
+	transform: skew(0deg, 3deg);
+	text-align: center;
+	
+}
+
+#instagramfeed {
+	height: 660px;
+	padding-bottom: 100px;
+}
+
+footer {
+	background-color: #b7d7d8;
+	padding: 20px;
+}
+
+form {
+	display: block;
+	width: 50%;
+	margin: 5% 25%;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial;
+	color: #FF8984;
+	font-size: 25px
+}
+
+input {
+	width: 100%;
+	background-color: #B7D7D8;
+	padding: 12px;
+	font-size: 20px;
+	font-family: "Bell MT"
+}
+
+input:focus {
+	border: 2px solid #585858;
+}
+
+input[type=text] {
+	padding-bottom: 20%;
+}
+
+input[type=submit] {
+	display: block;
+	margin: auto;
+	width: 50%;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	background-color: #FF8984;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+
+.namefooter {
+	display: inline-block;
+	position: relative;
+	
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 28px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 25%
+	
+}
+
+.footlist {
+	margin: 0px 40px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 50px;
+	position: relative;
+	
+}
+	
+
+.linkedinactive {
+	margin-right: -10px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 379px) {
+	
+
+	h2 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	color: #585858;
+	font-weight: 450;
+	}
+	
+	
+.header-top {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	background-color: #b7d7d8;	
+	}
+	
+.name-top {
+	float: left;
+	}
+	
+.socialmedia li {
+	display: inline-block;
+}
+	
+
+.linkedinactive {
+	margin-right: 0;
+}
+	
+.socialicons {
+		height: 25px;
+		width: 25px;
+		margin-right: -18px;
+		
+	}
+
+.navlogo {
+		height: 50px;
+		width: 50px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+a.navigation {
+	margin: 0px 8px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 10px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+	
+.builder {
+		height: 146px;
+		width: 379px;
+		width: inherit;
+}
+
+.portfoliothreaded {
+		width: 379px;
+		height: 548px;
+		max-width: 100%;
+	}	
+	
+.portfoliofitperiod1 {
+		width: 379px;
+		height: 1084px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 379px;
+		height: 428px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 379px;
+		height: 1040px;
+	}
+
+.portfoliorelive1 {
+		width: 379px;
+		height: 623px;
+	}
+.portfoliorelive2 {
+		width: 379px;
+		height: 306px;
+		
+	}
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 20px;
+	margin: 30px 0px -40px;
+	
+}	
+	
+	
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 50px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 38px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+}	
+	
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 50px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 20px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+
+
+.circleicons {
+	height: 140px;
+	width: 140px;
+	margin: 0px 10px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+		
+.rowportfoliopg {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+	padding: 50px 0px 0px 0px;
+}
+
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 16px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.bigcloud_1 {
+		width: 200px;
+		height: 80px;
+	}	
+	
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 105px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 105px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial;
+	}
+
+
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+		
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}		
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+}
+	
+.threaded {
+	width: 100px;
+	height: 41px;
+	}
+	
+.fitperiodbadges {
+	width: 100px;
+	
+	}
+.portfoliodesktop {
+	width: 100px;
+	height: 83px;
+}
+
+.portfoliomobile {
+	width: auto;
+	height: 133px;
+}
+	
+#instagramfeed {
+	height: 150px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 6.4px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 5%;
+	bottom: 4px;
+	
+}
+
+.footlist {
+	margin: 0px 1px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 2px;
+	position: relative;
+	bottom: 6px;
+	
+}	
+
+	
+}
+	
+@media (min-width: 380px) and (max-width: 480px){
+	
+	h2 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	color: #585858;
+	font-weight: 450;
+	}
+	
+	
+.header-top {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	background-color: #b7d7d8;	
+	}
+	
+.name-top {
+	float: left;
+	}
+	
+.socialmedia li {
+	display: inline-block;
+}
+	
+
+.linkedinactive {
+	margin-right: 0;
+}
+	
+.socialicons {
+		height: 25px;
+		width: 25px;
+		margin-right: -18px;
+		
+	}
+
+.navlogo {
+		height: 50px;
+		width: 50px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+a.navigation {
+	margin: 0px 11px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 12px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+	
+.builder {
+		height: 184px;
+		width: 480px;
+		width: inherit;
+}
+	
+.portfoliothreaded {
+		width: 420px;
+		height: 608px;
+		max-width: 100%;
+	}	
+	
+.portfoliofitperiod1 {
+		width: 420px;
+		height: 1201px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 420px;
+		height: 474px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 420px;
+		height: 1152px;
+	}
+
+.portfoliorelive1 {
+		width: 420px;
+		height: 690px;
+	}
+.portfoliorelive2 {
+		width: 420px;
+		height: 339px;
+		
+	}
+	
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 50px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 40px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+}	
+		
+	
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 50px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 20px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 150px;
+	width: 150px;
+	margin: 0px 10px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 16px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 145px;
+		height: 100px;
+	}	
+
+.bigcloud_1 {
+		width: 225px;
+		height: 100px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 20px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 121px;
+	height: 50px;
+	}
+	
+.fitperiodbadges {
+	width: 121px;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 145px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial;
+	color: #204e5f !important;
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+}
+	
+.portfoliodesktop {
+	width: 121px;
+	height: 100px;
+}
+
+.portfoliomobile {
+	width: auto;
+	height: 161px;
+}
+	
+	
+#instagramfeed {
+	height: 170px;
+	padding-bottom: 30px;
+	
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 12px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 5%;
+	bottom: 2px;
+	
+}
+
+.footlist {
+	margin: 0px 5px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 5px;
+	position: relative;
+	bottom: 6px;
+	
+}	
+	
+}
+
+
+@media (min-width: 481px) and (max-width: 575px){
+
+	h2 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	color: #585858;
+	font-weight: 450;
+	}
+	
+	
+.header-top {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	background-color: #b7d7d8;	
+	}
+	
+.name-top {
+	float: left;
+	}
+	
+.socialmedia li {
+	display: inline-block;
+}
+	
+
+.linkedinactive {
+	margin-right: 0;
+}
+	
+.socialicons {
+		height: 25px;
+		width: 25px;
+		margin-right: -18px;
+		
+	}
+
+.navlogo {
+		height: 60px;
+		width: 60px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+a.navigation {
+	margin: 0px 15px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 16px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+	
+.builder {
+		height: 221px;
+		width: 575px;
+		width: inherit;
+}	
+.portfoliothreaded {
+		width: 575px;
+		height: 832px;
+	}	
+	
+.portfoliofitperiod1 {
+		width: 575px;
+		height: 1644px;
+		max-width: 100%;
+	}
+	
+.portfoliofitperiod2 {
+		width: 575px;
+		height: 649px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 575px;
+		height: 1577px;
+	}
+
+.portfoliorelive1 {
+		width: 575px;
+		height: 945px;
+	}
+.portfoliorelive2 {
+		width: 575px;
+		height: 464px;
+		
+	}	
+
+	
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 55px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+	
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 38px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+}	
+	
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 55px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 25px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 150px;
+	width: 150px;
+	margin: 0px 10px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 20px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 24px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 145px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 150px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+}
+
+	
+	
+.bigcloud_1 {
+		width: 250px;
+		height: 100px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 20px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 150px;
+	height: 62px;
+	}
+	
+.fitperiodbadges {
+	width: 150px;
+	
+	}	
+	
+	
+	
+	
+	
+.portfoliodesktop {
+	width: 150px;
+	height: 124px;
+}
+
+.portfoliomobile {
+	width: auto;
+	height: 200px;
+}
+	
+	
+#instagramfeed {
+	height: 210px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 14px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 12%;
+	bottom: 2px;
+	
+}
+
+.footlist {
+	margin: 0px 8px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 5px;
+	position: relative;
+	bottom: 6px;
+	
+}	
+	
+	
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+	
+.navlogo {
+		height: 80px;
+		width: 80px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+a.navigation {
+	margin: 0px 20px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 18px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+.builder {
+		height: 295px;
+		width: 768px;
+		width: inherit;
+}	
+	
+.portfoliothreaded {
+		width: 768px;
+		height: 1111px;
+		max-width: 100%;
+	}	
+	
+.portfoliofitperiod1 {
+		width: 768px;
+		height: 2196px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 768px;
+		height: 867px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 768px;
+		height: 2107px;
+	}
+
+.portfoliorelive1 {
+		width: 768px;
+		height: 1262px;
+	}
+.portfoliorelive2 {
+		width: 768px;
+		height: 619px;
+		
+	}
+	
+	
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 55px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 45px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+}	
+		
+	
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 55px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 25px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 175px;
+	width: 175px;
+	margin: 0px 18px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 25px 0px 25px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 20px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 145px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 145px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+}
+
+.bigcloud_1 {
+		width: 275px;
+		height: 100px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -5px auto 15px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 30px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 185px;
+	height: 76px;
+	}
+	
+.fitperiodbadges {
+	width: 185px;
+	
+	}	
+	
+	
+.portfoliodesktop {
+	width: 185px;
+	height: 153px;
+}
+	
+.portfoliomobile {
+	width: auto;
+	height: 246px;
+}
+	
+#instagramfeed {
+	height: 278px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 14px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 5%;
+	bottom: 5px;
+	
+}
+
+.footlist {
+	margin: 0px 3px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 0px;
+	position: relative;
+	bottom: 6px;
+	
+}	
+	
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+	
+.navlogo {
+		height: 90px;
+		width: 90px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+a.navigation {
+	margin: 0px 40px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 20px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+	
+.builder {
+		height: 381px;
+		width: 992px;
+		width: inherit;
+}
+
+.portfoliothreaded {
+		width: 992px;
+		height: 1435px;
+		max-width: 100%;
+	}		
+
+.portfoliofitperiod1 {
+		width: 992px;
+		height: 2837px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 992px;
+		height: 1120px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 992px;
+		height: 2721px;
+	}
+
+.portfoliorelive1 {
+		width: 992px;
+		height: 1631px;
+	}
+.portfoliorelive2 {
+		width: 992px;
+		height: 800px;
+		
+	}
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 60px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+	
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 50px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+}	
+	
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 60px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 40px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 200px;
+	width: 200px;
+	margin: 0px 25px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0px 0px 25px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 30px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 200px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 200px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 25px 0px 25px;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 25px 0px 0px;
+}
+	
+	
+.bigcloud_1 {
+		width: 325px;
+		height: 100px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -5px auto 15px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 35px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 230px;
+	height: 94px;
+	}
+	
+.fitperiodbadges {
+	width: 230px;
+	
+	}	
+		
+	
+	
+	
+.portfoliodesktop {
+	width: 230px;
+	height: 190px;
+}
+	
+.portfoliomobile {
+	width: auto;
+	height: 306px;
+}
+	
+#instagramfeed {
+	height: 370px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 20px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 15%;
+	bottom: 5px;
+	
+}
+
+.footlist {
+	margin: 0px 10px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 0px;
+	position: relative;
+	bottom: 6px;
+	
+}	
+	
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+	
+.navlogo {
+		height: 90px;
+		width: 90px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+a.navigation {
+	margin: 0px 50px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 22px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+	
+.builder {
+		height: 461px;
+		width: 1200px;
+		width: inherit;
+}
+	
+.portfoliothreaded {
+		width: 1200px;
+		height: 1736px;
+		max-width: 100%;
+	}		
+
+.portfoliofitperiod1 {
+		width: 1200px;
+		height: 3431px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 1200px;
+		height: 1354px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 1200px;
+		height: 3292px;
+	}
+
+.portfoliorelive1 {
+		width: 1200px;
+		height: 1973px;
+	}
+.portfoliorelive2 {
+		width: 1200px;
+		height: 968px;
+		
+	}	
+	
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 60px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 55px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+	}
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 60px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 40px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 200px;
+	width: 200px;
+	margin: 0px 25px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0px 0px 100px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 30px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 200px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 200px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 100px 0px 100px;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 100px 0px 0px;
+}
+	
+	
+.bigcloud_1 {
+		width: 375px;
+		height: 150px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -5px auto 15px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 45px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 300px;
+	height: 123px;
+	}
+	
+.fitperiodbadges {
+	width: 300px;
+	
+	}		
+	
+	
+.portfoliodesktop {
+	width: 300px;
+	height: 248px;
+}
+	
+.portfoliomobile {
+	width: auto;
+	height: 350px;
+}
+	
+#instagramfeed {
+	height: 445px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 25px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 25%;
+	bottom: 5px;
+	
+}
+
+.footlist {
+	margin: 0px 10px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 0px;
+	position: relative;
+	bottom: 6px;
+	
+}		
+	
+}
+@media (min-width: 1201px) and (max-width: 1321px){
+	
+.navlogo {
+		height: 90px;
+		width: 90px;
+	}	
+	
+ul.nav {
+	text-align: center;
+	width: 100%;
+
+}
+
+.builder {
+		height: 508px;
+		width: 1321px;
+		width: inherit;
+	}	
+
+.portfoliothreaded {
+		width: 1321px;
+		height: 1911px;
+		max-width: 100%;
+	}		
+	
+.portfoliofitperiod1 {
+		width: 1321px;
+		height: 3777px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 1321px;
+		height: 1491px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 1321px;
+		height: 3624px;
+	}
+
+.portfoliorelive1 {
+		width: 1321px;
+		height: 2171px;
+	}
+.portfoliorelive2 {
+		width: 1321px;
+		height: 1065px;
+		
+	}	
+	
+	
+a.navigation {
+	margin: 0px 75px;
+	font-family: "Segoe UI", "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT", Arial;
+	color: #204E5F;
+	font-size: 24px;
+	text-align: right;
+	
+}
+
+li {
+	display: inline-block;
+
+	}
+
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 65px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+	
+h1.portfolio {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 55px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0px;
+	}
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 65px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 47px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 250px;
+	width: 250px;
+	margin: 0px 25px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0px 0px 100px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 37px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 250px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 250px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 100px 0px 100px;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 100px 0px 0px;
+}
+	
+	
+	
+.bigcloud_1 {
+		width: 400px;
+		height: 150px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -5px auto 15px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 50px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 390px;
+	height: 160px;
+	}
+	
+.fitperiodbadges {
+	width: 390px;
+	
+	}		
+	
+	
+.portfoliodesktop {
+	width: 390px;
+	height: 323px;
+}
+	
+.portfoliomobile {
+	width: auto;
+	height: 520px;
+}
+	
+#instagramfeed {
+	height: 500px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 28px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 35%;
+	bottom: 5px;
+	
+}
+
+.footlist {
+	margin: 0px 15px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 0px;
+	position: relative;
+	bottom: 6px;
+	
+}		
+	
+	
+}
+@media (min-width: 1322px) and (max-width: 1420px){
+	
+.builder {
+		height: 546px;
+		width: 1420px;
+		width: inherit;
+	}
+
+.portfoliothreaded {
+		width: 1420px;
+		height: 2055px;
+		max-width: 100%;
+	}	
+	
+.portfoliofitperiod1 {
+		width: 1420px;
+		height: 4060px;
+	}
+	
+.portfoliofitperiod2 {
+		width: 1420px;
+		height: 1603px;
+	}	
+	
+.portfoliofitperiod3 {
+		width: 1420px;
+		height: 3895px;
+	}
+
+.portfoliorelive1 {
+		width: 1420px;
+		height: 2334px;
+	}
+.portfoliorelive2 {
+		width: 1420px;
+		height: 1145px;
+		
+	}	
+	
+h1 {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans","Arial Rounded MT", Arial;
+	font-size: 65px;
+	color: #ff8984;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+	
+h1.afterdiagonal {
+		font-family: 'Berlin Sans FB', 'Gill Sans MT', "Gill Sans", 'Arial Rounded MT Bold', Arial;
+		font-size: 65px;
+		padding-top: 35px;
+	}
+	
+h1.sub {
+	font-family: "Bell MT";
+	font-size: 47px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;
+	margin: -20px 10px 40px;
+	
+}
+
+.circleicons {
+	height: 250px;
+	width: 250px;
+	margin: 0px 25px;
+	}
+
+
+.row {
+	display: flex;
+	width: 100%;
+	margin: -45px auto 0px;
+}
+	
+.wordscolumn {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0px 0px 100px;
+}
+	
+p.words {
+	font-family: "Bell MT";
+	font-size: 37px;
+	color: #204e5f;
+	text-align: center;
+	font-weight: normal;	
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.cloud {
+	fill:#B7D7D8;
+	font-size: 22px;
+	font-family: "Bell MT";
+}
+
+.cloud_1 {
+		width: 250px;
+		height: 100px;
+	}	
+
+.portfoliocloud {
+		display: block;
+		margin: auto;
+		width: 250px;
+		height: 100px;
+	
+	}		
+	
+.buttontext {
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Gill Sans", "Arial Rounded MT Bold", Arial
+	}
+	
+.cloudhover:hover path {
+	 fill: #C6E5EB
+}
+
+.piccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 100px 0px 100px;
+}
+	
+.leftdiagonal {
+	background: #FFE1D1;
+	padding: 0px 0px;
+	transform: skew(0deg, 3deg);
+	width: 100%;
+}
+	
+.rowleftdiagonal {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg)
+}	
+	
+.wordscolumnright {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 100px 0px 0px;
+}
+	
+	
+.bigcloud_1 {
+		width: 450px;
+		height: 150px;
+	}
+
+.rowportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: -5px auto 15px;
+}
+	
+.wordscolumnrightnobg {
+	flex: 50%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 5px 0px 5px;
+	
+	}	
+	
+h1.projecttitle {
+	color: #204e5f;
+	font-size: 55px;
+	margin: 30px 0px -40px;
+	
+}	
+
+.rowleftdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, -3deg);
+}	
+	
+	
+.rowrightdiagonalportfoliopg {
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	transform: skew(0deg, 3deg);
+	}
+	
+.threaded {
+	width: 400px;
+	height: 164px;
+	}
+	
+.fitperiodbadges {
+	width: 400px;
+	
+	}		
+	
+	
+	
+.portfoliodesktop {
+	width: 400px;
+	height: 331px;
+}
+
+.portfoliomobile {
+	width: auto;
+	height: 475px;
+}
+	
+	
+#instagramfeed {
+	height: 530px;
+}
+	
+footer {
+	background-color: #b7d7d8;
+	padding: 10px;
+}
+
+.namefooter {
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+ul.footerlist {
+	list-style-type: none;
+	font-family: "Berlin Sans FB", "Gill Sans MT", "Arial Rounded MT Bold", Arial;
+	font-size: 28px;
+	display: inline-block;
+	color: #585858;
+	position: relative;
+	left: 35%;
+	bottom: 5px;
+	
+}
+
+.footlist {
+	margin: 0px 15px;
+	color: #585858;
+	
+}
+
+.socialmediafooter {
+	float: right;
+	margin: 0px 0px;
+	position: relative;
+	bottom: 6px;
+	
+}	
+	
+}
+
+@media (min-width: 1421px) {
+	
+}
+
+.sitenav-evana {
+	border-bottom: 3px solid #b7d7d8;
+}
+
+.row-evana {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.evanadestop {
+	width: 750px;
+	height: 673px;
+}
+
+.evanaslideshow {
+	position: relative;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 379px) {
+.emptymac {
+	width: 300px;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#\35 cec84c0_1625004245 {
+	position: absolute;
+	left: 50%;
+	top: -18px;
+	width: 290px;
+	margin-left: -140px;
+}
+	p.wordsevana {
+	font-size: 18px;
+}
+
+ul.wordsevana.li {
+	font-size: 18px;
+}
+	
+.evanawork {
+		width: 300px;
+		height: auto;
+		margin-top: 4px;
+	}	
+	
+}
+
+@media (min-width: 380px) and (max-width: 480px){ 
+.emptymac {
+	width: 300px;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#\35 cec84c0_1625004245 {
+	position: absolute;
+	left: 50%;
+	top: -18px;
+	width: 290px;
+	margin-left: -140px;
+}	
+p.wordsevana {
+	font-size: 20px;
+}
+
+ul.wordsevana.li {
+	font-size: 20px;
+}
+
+.evanawork {
+		width: 300px;
+		height: auto;
+		margin-top: 10px;
+	}
+	
+}
+
+@media (min-width: 481px) and (max-width: 575px){ 
+.emptymac {
+	width: 400px;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#\35 cec84c0_1625004245 {
+	position: absolute;
+	left: 50%;
+	top: -12px;
+	width: 378px;
+	margin-left: -185px;
+}	
+p.wordsevana {
+	font-size: 22px;
+}
+
+ul.wordsevana.li {
+	font-size: 22px;
+}
+
+.evanawork {
+		width: 400px;
+		height: auto;
+		margin-top: 20px;
+	}
+	
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+.emptymac {
+	width: 450px;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#\35 cec84c0_1625004245 {
+	position: absolute;
+	left: 50%;
+	top: -10px;
+	width: 428px;
+	margin-left: -209px;
+}
+p.wordsevana {
+	font-size: 24px;
+}
+
+ul.wordsevana.li {
+	font-size: 24px;
+}
+	
+.evanawork {
+		width: 450px;
+		height: auto;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+.emptymac {
+	width: 600px;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#\35 cec84c0_1625004245 {
+	position: absolute;
+	left: 50%;
+	top: -5px;
+	width: 561px;
+	margin-left: -278px;
+}
+p.wordsevana {
+	font-size: 28px;
+}
+
+ul.wordsevana.li {
+	font-size: 28px;
+}
+
+.evanawork {
+		width: 600px;
+		height: auto;
+		margin-top: 30px;
+	}
+	
+}
+
+@media (min-width: 993px){
+.emptymac {
+	width: 960px;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+#\35 cec84c0_1625004245 {
+	position: absolute;
+	left: 50%;
+	top: 12px;
+	width: 900px;
+	margin-left: -445px;
+}
+
+.evanaworkimage {
+		display: flex;
+		justify-content: center;
+	}
+.evanawork {
+		width: 960px;
+		height: auto;
+		margin-top: 40px;
+	}
+}

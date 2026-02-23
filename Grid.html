@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GridMap Developer Platform Tools</title>
+<link rel="stylesheet" type="text/css" href="/CSS/template.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <div class="name">
+                <a href="/index.html"><h2>Lucy the Designer</h2></a>
+            </div>
+        <div class="socialmedia">
+            <ul>
+                <li class="instagramactive"><a href="https://www.instagram.com/lucy.thedesigner/" target="_blank" title="Instagram"><img class="socialicons" src="/images/Symbol3.png" width="52" height="52" alt=""/></a></li>
+                <li class="linkedinactive"><a href="https://www.linkedin.com/in/tenishariley/" target="_blank" title="LinkedIn"><img class="socialicons" src="/images/Symbol2.png" width="52" height="52" alt=""/></a></li>
+            </ul>
+        </div>
+        </div>
+    
+        <div class="sitenav">
+            <div class="menu">
+              <ul class="nav">
+                  <li><a class="navigation" href="/index.html">HOME</a>
+                  </li>
+                  <li><a class="navigation" href="/portfolio.html">PORTFOLIO</a>
+                  </li>
+                    <li><a href ="/index.html"><img class="navlogo" src="/images/Logo16.png" width="2108" height="2171" alt=""/></a>
+                  </li>
+                     <li><a class="navigation" href="/about.html">ABOUT</a></li>
+                  <li><a class="navigation" href="/contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        </div>
+    </header>
+
+<h1 class="portfolio">GridMap Tech Developer Platform</h1>
+<div class="evanaworkimage">
+		<img src="/images/griddesktop.png" alt="" class="evanawork" />
+	</div>
+
+	<div class="rowportfoliopg rowportfoliopg--narrow" style="margin-bottom: 0px; margin-top: 0px;">
+		<div class="wordscolumn">
+		<h1 class="projecttitleevana" style="margin-top: 0px;">Overview</h1>
+		<p class="wordsevana">MapCore is GridMap’s AI-powered mapping platform that 
+			uses machine learning (ML) to automate how maps are built, updated, and extended. I worked as the 
+			 Lead UX Designer on the developer platform that helps engineers and data scientists visualize, 
+			 validate, and manage the geospatial data that powers MapCore. <br><br>
+			 My focus was continuous UX improvements across complex workflows, improving visualization 
+			 clarity, and making it faster and easier for technical users to work with dense data and 
+			 analytics. The goal was to improve speed, accuracy, and accessibility while supporting scale 
+			 across global teams.
+		</p>
+
+		<h1 class="projecttitleevana">Challenge</h1>
+		<p class="wordsevana">As MapCore expanded, new tools and automation features were introduced frequently.
+			 Every new capability improved functionality, but it also increased risk: more controls, more 
+			 data layers, more configuration, and more cognitive load. <br> <br>
+			 At the platform level, we also had broader usability challenges: fragmented workflows, 
+			 laborious editing steps, and difficulty verifying AI-driven updates in dense geospatial views.
+		</p>
+		<h1 class="projecttitleevana">Research</h1>
+			<p class="wordsevana">Before redesigning workflows or introducing new UI patterns, 
+				I needed to understand where friction actually existed in real developer behavior. 
+			<br><br>
+				I conducted stakeholder interviews across product and engineering to clarify current 
+				priorities, upcoming AI enhancements, and known areas of friction. Stakeholders provided me 
+				insight into feature growth and automation improvements.<br><br>
+				To ground the work in user behavior, I conducted several rounds of user interviews with engineers and 
+				data specialists using the platform regularly. I asked broad satisfaction and usability
+				questions, while also focusing on how they completed common tasks such as validating 
+				ML-driven map updates, editing JSON configurations, and isolating specific data layers.<br><br>
+				</p>
+				<div class="evanaworkimage">
+					<img src="/images/gridresearch.png" alt="" class="evanawork" />
+				</div>
+				<p class="wordsevana">Several details emerged:</p>
+
+			<div class="wordsevana">
+				<ul>
+					<li>Users were spending unnecessary time navigating between tools to complete a single workflow.</li>
+					<li>Dense data layers made it difficult to quickly verify AI-generated data.</li>
+					<li>Advanced configuration options were powerful but surfaced too early in the experience, 
+					increasing cognitive load.</li>
+					<li>Large JSON file handling created friction in small, iterative updates.</li>
+				</ul>
+			</div>
+			<p class="wordsevana">I also reviewed support tickets and internal issue logs to identify recurring 
+			pain points. This helped validate that the friction points observed in interviews were not 
+			isolated cases but systemic usability challenges. <br><br>
+				This insight shaped the design direction. Instead of simplifying the platform by removing 
+				depth, I focused on restructuring how and when complexity was exposed. The goal became 
+				reducing friction in high-frequency workflows while preserving advanced functionality for 
+				power users.
+			</p>
+
+		<h1 class="projecttitleevana">Solutions</h1>
+			<p class="wordsevana">
+				<b>Problem: Rapid feature growth created complexity and decision fatigue.</b><br>
+				Organized features by task relevance and surfaced controls contextually when needed. 
+				Advanced settings were placed in expandable panels so power users could access depth without forcing 
+				it on every workflow. I also partnered with engineers to review new features before release to keep 
+				usability from drifting as capabilities increased. This allowed feature growth without overwhelming
+				users.<br><br>
+				<b>Problem: Dense map data made it hard to interpret changes.</b><br>
+				Improved layer filtering and visibility controls with customizable toggles, 
+				color safe data states, and zoom adaptive clustering to clarify differences and reduce 
+				visual noise. This improvements made complex geospatial changes easier to read and understand.<br><br>
+				<b>Problem: Styling relied on large, clunky JSON files</b><br>
+				Designed a modular JSON editing approach in the UI so developers could isolate and 
+				modify specific sections like roads, buildings, or environmental layers without re-importing 
+				entire files. This reduced load time, lowered version conflict risk, and made updates faster 
+				and more accurate in production workflows.
+
+			</p>	  
+			<h1 class="projecttitleevana">Impact and Results</h1>
+			<div class="wordsevana">
+				<ul>
+					<li>Faster data validation by enabling review and edits directly in the UI and reducing redundant checks.</li>
+					<li>Improved accessibility and focus through higher contrast states and more customizable views for dense data.</li>
+					<li>18% fewer reported issues due to clearer workflows and fewer points of confusion.</li>
+					<li>35% increase in user satisfaction due to improved clarity and usability.</li>
+				</ul>
+			</div>
+			<h1 class="projecttitleevana">Conclusion</h1>
+			<p class="wordsevana">Working on MapCore reinforced how much technical innovation depends on 
+				clear, human centered UX. Even the most advanced AI driven systems rely on usability, 
+				accessibility, and workflow clarity to be effective.<br><br>
+		</div>
+		</div>
+				<a href="https://www.figma.com/proto/8QvwpvRDwSvoNdo1w1cLXe/HERE-Demo-Video?node-id=1-6&p=f&viewport=165%2C879%2C0.36&t=XPxMBqBWczRQ5mLL-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
+				<img class="evanawork" style="margin-top: 0px;" src="/images/gridlaptop.png" width="2986" height="2472" alt=""/>
+			</a><p class="wordsevana" style="text-align: center; margin-top: 0px;"><a style="text-decoration: underline; color: inherit;" href="https://www.figma.com/proto/8QvwpvRDwSvoNdo1w1cLXe/HERE-Demo-Video?node-id=1-6&p=f&viewport=165%2C879%2C0.36&t=XPxMBqBWczRQ5mLL-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">Click here for the walkthrough video</a></p>
+
+	<!-- Scroll to Top Button -->
+
+<button id="scrollTopBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" aria-label="Scroll to top">
+  ↑ Scroll to Top
+</button>
+
+<script>
+  const nav = document.querySelector(".sitenav");
+  const btn = document.getElementById("scrollTopBtn");
+
+  if (nav && btn) {
+    const observer = new IntersectionObserver(([entry]) => {
+      btn.classList.toggle("show", !entry.isIntersecting);
+    }, { threshold: 0 });
+
+    observer.observe(nav);
+  }
+</script>
+
+<!-- End of Scroll to Top Button -->
+
+	<footer>
+		<div class="namefooter">
+			<a href="/index.html"><h2>Lucy the Designer</h2></a>
+		</div>
+		<div class="socialmediafooter">
+	<ul>
+		<li class="instagramactive"><a href="https://www.instagram.com/lucy.thedesigner/" target="_blank" title="Instagram"><img class="socialicons" src="/images/Symbol3.png" width="52" height="52" alt=""/></a></li>
+		<li class="linkedinactive"><a href="https://www.linkedin.com/in/tenishariley/" target="_blank" title="LinkedIn"><img class="socialicons" src="/images/Symbol2.png" width="52" height="52" alt=""/></a></li>
+	</ul>
+</div><ul class="footerlist">
+		<li><a class="footlist" href="/About.html">About</a>
+		</li>
+		<li><a class="footlist" href="/portfolio.html">Portfolio</a>
+		</li>
+		<li><a class="footlist" href="/contact.html">Contact</a>
+		</li>
+		</ul>
+		
+</footer>	

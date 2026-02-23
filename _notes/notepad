@@ -1,0 +1,56 @@
+<div class="evanaworkimage">
+		<img src="<?php get_template_directory_uri(); ?> /wp/wp-content/themes/AirySky/images//evanaworkwork3.png" alt="" class="evanawork" />
+	</div>
+	<div class="rowportfoliopg">
+		<div class="wordscolumn">
+		<h1 class="projecttitleevana">Overview</h1>
+		<p class="wordsevana">Evana is a fictitious risk analysis company, specializing in delivering rapid, reliable risk assessments to businesses across various industries. The company's core platform enables clients to analyze complex data sets, assess potential risks, and make informed decisions with confidence. However, the existing system presented usability challenges that hindered efficiency. Users struggled with disorganized data presentation, inefficient workflows, and a lack of automation, making risk assessments more time-consuming than necessary. 
+			I led the UX design efforts to create a more intuitive and streamlined platform, improving data visualization, workflow automation, and accessibility to empower users in their decision-making processes. </p>
+		<h1 class="projecttitleevana">Challenge</h1>
+		<p class="wordsevana">Risk assessment requires fast, data-driven insights. However, Evana's platform faced several barriers: <br>
+
+		<ul>
+			<li><b>Complex data structures:</b> Users found it difficult to extract relevant risk factors due to cluttered data presentation.</li>
+			<li><b>Inefficient workflows:</b> The platform lacked a clear task-oriented flow, leading to frustration and longer processing times. </li>
+			<li><b>Limited automation:</b> Users needed better predictive analytics and automated reporting to optimize their assessments. </li>
+			<li><b>Fragmented user experience:</b> The interface did not provide a seamless experience across desktop and mobile devices, limiting accessibility. </li><br>
+		The objective was to create a more intuitive, efficient, and responsive platform that enables risk analysts to generate insights faster and with greater accuracy.</p>
+
+		<h1 class="projecttitleevana">Research</h1>
+			<p class="wordsevana">To design a solution, I applied a user-centered research approach. 
+				<ul>
+					<ol>Stakeholder and User Interviews
+						<ul>
+							<li>Conducted interviews with risk analysts, underwriters, and compliance officers to understand their daily challenges.</li>
+							<li>Identified key pain points in navigating and analyzing risk data.</li>
+						</ul>
+					</ol>
+					<ol>Usability Audits
+						<ul>
+							<li>Observed users interacting with the existing platform to identify usability issues and inefficiencies in workflows.</li>
+							<li>Evaluated user behaviors to determine the most critical decision-making touchpoints.</li>
+						</ul>
+					</ol>
+					<ol>Competitive Analysis
+						<ul>
+							<li>Researched data storage visualiztion tools to identify best practices in document storage platforms.</li>
+							<li>Evaluated usability features, data visualization tools, and automation capabilities.</li>
+						</ul>
+					</ol>Prototyping & Iterative Testing
+						<ul>
+							<li>Created wireframes and interactive prototypes to test new design concepts and workflow efficiency with users.</li>
+							<li>Iteratively refined the design based on user feedback and usability testing results.</li>
+						</ul>
+					</ol>
+			</p>
+			<h1 class="projecttitleevana">Solution</h1>
+			<p class="wordsevana">Through user research and design, I was able to create an intuitive and seamless user experience by prioritizing simple, clean user interfaces that would allow users to upload documents, view current and past accounts, and download Evana's analysis results.</p>
+		  <h1 class="projecttitleevana">The Design</h1>
+			<p class="wordsevana">Once the prototype was complete, I conducted benchmark testing, created a task flow, updated the tool and style guide, and screen recorded the flow of the prototype with voice over instructions.  </p>
+			<h1 class="projecttitleevana">The Design</h1>
+			<p class="wordsevana">Once the prototype was complete, I conducted benchmark testing, created a task flow, updated the tool and style guide, and screen recorded the flow of the prototype with voice over instructions.  </p>
+		</div>
+		</div>
+	<div class="evanaslideshow">
+		<img class="portfoliodesktop" href="https://xd.adobe.com/view/11759991-2123-43aa-8243-d916e6282fa1-4426/?fullscreen" target="_blank" src="<?php get_template_directory_uri(); ?> /wp/wp-content/themes/AirySky/images/UXmacscreen.png" width="2986" height="2472" alt=""/>
+		<p class="wordsevana" style="text-align: center"><a style="text-decoration: none; color: inherit" href="https://xd.adobe.com/view/11759991-2123-43aa-8243-d916e6282fa1-4426/?fullscreen" target="_blank">Click here for the Adobe XD prototype</a></p>
